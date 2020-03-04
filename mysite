@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script>
+        function func()
+        {
+            obj = document.getElementById('h1');
+            obj.innerHTML = '使用js进行了代码修改';
+        }
+    </script>
+</head>
+<body>
+<h1 id = "h1">这是liy的个人主页</h1>
+<input type = "button" value = "修改" onclick = "func()">
+username<input type = "text">
+passwd <input type = "passwd">
+</body>
+</html>
